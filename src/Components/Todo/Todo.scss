@@ -1,0 +1,21 @@
+.todo + .todo {
+    margin-top: 15px;
+}
+
+.todo--inactive {
+	text-decoration: line-through;
+	color: green;
+}
+
+.btn {
+	padding: 10px 25px;
+	background-color: red;
+	color: white;
+	border-radius: 5px;
+	border: transparent;
+	&:active {
+		border: 1px solid red;
+		background-color: transparent;
+		color: red;
+	}
+}
